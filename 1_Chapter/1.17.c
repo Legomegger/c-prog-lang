@@ -1,11 +1,10 @@
 #include <stdio.h>
-#define MINCOUNT 10
+#define MINCOUNT 80
 #define MAXTEXT 10000
 #define MAXLINE 1000
 
 int getlin(char line[], int maxline);
 int append(char result[], char to[], int length, int index);
-void copy(char to[], char from[]);
 
 int main(int argc, char *argv[])
 {
