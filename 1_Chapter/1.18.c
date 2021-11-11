@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define MINCOUNT 10
 #define MAXLINE 1000
 
 int getlin(char line[], int maxline);
